@@ -1,8 +1,36 @@
+/* colors: #eabe7b, #db8951 #b45b27, #8d1c7a, #580a5c */
+
+head {
+    background-color: #db8951;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: auto;
+  }
+
 body {
-    background-color: lightblue;
+    background-color: #eabe7b;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: "Barlow";
+    width: 50%;
+    margin: auto;
   }
   
   h1 {
-    color: navy;
+    color: #8d1c7a;
     margin-left: 20px;
+  }
+
+  p {
+    color: #580a5c;
   }
